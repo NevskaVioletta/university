@@ -12,6 +12,7 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
+	//оголошення змінних
 	int x, a, b, c;
 	float f;
 	cout << "Введіть значення для x: ";
@@ -30,7 +31,7 @@ int main()
 		f = x - a / (x - c);
 	}
 	else if (c != 0) { f = 1 + x / c; } 
-	else { cout << "Розв'язку немає "; exit(0); };
+	else { cout << "Розв'язку немає "; return(0); };
 	cout << setw(8) << setprecision(3) << "Відповідь=" << f << endl;
 
 }
@@ -46,8 +47,9 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
+	//оголошення змінної
 	int x;
-	cout << "Введіть будь-яке число від 1-3 \n  1-Квадрат \n  2-Трикутник \n  3-Хрестик : ";
+	cout << "Введіть число від 1-3 \n  1-Квадрат \n  2-Трикутник \n  3-Хрестик : ";
 	cin >> x;
 	switch (x)
 	{
