@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-    //кирилиц€
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-
-    int num, a, b, c; //оголошенн€ зм≥нних
+ //оголошенн€ зм≥нних
+    int num, a, b, c;
     cout << "¬вед≥ть будь-€ке тризначне  число \n num="; //введенн€ значенн€ користувачем
     cin >> num;
     //процес обробки числа
