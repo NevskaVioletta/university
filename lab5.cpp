@@ -2,7 +2,7 @@
 //
 
 
-#include <iostream>
+/*#include <iostream>
 #include <iomanip>
 #include "windows.h"
 
@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {
+	//кирилиця
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	//оголошення змінних
@@ -34,7 +35,7 @@ int main()
 	else { cout << "Розв'язку немає "; return(0); };
 	cout << setw(8) << setprecision(3) << "Відповідь=" << f << endl;
 
-}
+}*/
 
 
 #include <iostream>
@@ -45,6 +46,7 @@ using namespace std;
 
 int main()
 {
+	//кирилиця
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	//оголошення змінної
